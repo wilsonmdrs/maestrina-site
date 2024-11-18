@@ -4,11 +4,8 @@ import { Navbar, Footer } from "@/components";
 // sections
 import HomeSection from "./sections/home";
 import ServicesSection from "./sections/services";
-import AboutEvent from "./about-event";
-import OurStats from "./our-stats";
-import EventContent from "./event-content";
-import Faq from "./faq";
 import AboutSection from "./sections/about";
+import ContactSection from "./sections/contact";
 
 export default function Portfolio() {
   return (
@@ -17,10 +14,7 @@ export default function Portfolio() {
       <HomeSection />
       <ServicesSection />
       <AboutSection />
-      {/* <AboutEvent />
-      <OurStats />
-      <EventContent /> */}
-      {/* <Faq /> */}
+      <ContactSection />
       <Footer />
     </>
   );

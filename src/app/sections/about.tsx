@@ -16,12 +16,15 @@ export function AboutSection() {
       <div id="about" className="translate-y-[-90px]  " />
       <div className="container flex items-end flex-col gap-6 ">
         <div className="lg:w-1/2 sm:w-auto ">
-          <Typography variant="h2" className="text-primary font-Fahkwang">
+          <Typography
+            variant="h2"
+            className="text-primary  text-[32px] font-Fahkwang"
+          >
             About us
           </Typography>
           <Typography
             variant="paragraph"
-            className="text-text-enabled font-Fahkwang text-justify text-sm pt-6"
+            className="text-text-enabled font-Fahkwang text-justify text-sm pt-6 font-semibold"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -37,7 +40,7 @@ export function AboutSection() {
           </Typography>
           <Typography
             variant="paragraph"
-            className="text-text-enabled font-Fahkwang text-justify text-sm pt-6"
+            className="text-text-enabled font-Fahkwang text-justify text-sm pt-6 font-semibold"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
