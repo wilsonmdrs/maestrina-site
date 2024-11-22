@@ -4,6 +4,14 @@ import { IconButton, Button, Typography } from "@material-tailwind/react";
 import { ArrowDownIcon } from "@heroicons/react/24/solid";
 
 function HomeSection() {
+  const handleClick = () => {
+    const phoneNumber = "+351 913 502 727";
+    const encodedMessage = encodeURIComponent(
+      "Hello, I'm interested in your service"
+    );
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+    window.open(whatsappUrl, "_blank"); // Opens WhatsApp in a new tab/window
+  };
   return (
     <div
       id="home"
@@ -24,11 +32,39 @@ function HomeSection() {
           >
             Exclusive Solutions for Visionary Entrepreneurs
           </Typography>
-          {/* <div className="flex items-center gap-4">
-            <IconButton className="rounded-full bg-transparent p-6 border-2 border-primary hover:bg-primary transition-all first:text-primary hover:first:text-white ">
+          <div className="flex items-center gap-4">
+            {/* <div className="flex w-fit gap-4 pt-4"> */}
+            {/* <IconButton
+                size="md"
+                className="text-background-secondary bg-primary"
+              >
+                <i className="fas fa-brands fa-linkedin fa-lg" />
+              </IconButton>
+              <IconButton
+                size="md"
+                className="text-background-secondary bg-primary"
+              >
+                <i className="fa-brands fa-x fa-lg" />
+              </IconButton>
+              <IconButton
+                size="md"
+                className="text-background-secondary bg-primary"
+              >
+                <i className="fa-brands fa-instagram fa-lg" /> */}
+            {/* </IconButton> */}
+            <Button
+              size="md"
+              className="text-background-secondary bg-primary gap-4 text-[16px]"
+              onClick={handleClick}
+            >
+              <i className="fa-brands fa-whatsapp fa-lg mr-2" />
+              Contact
+            </Button>
+            {/* </div> */}
+            {/* <IconButton className="rounded-full bg-transparent p-6 border-2 border-primary hover:bg-primary transition-all first:text-primary hover:first:text-white ">
               <ArrowDownIcon className="h-7 w-7" />
-            </IconButton>
-          </div> */}
+            </IconButton> */}
+          </div>
         </div>
       </div>
     </div>
