@@ -5,7 +5,7 @@ import { ArrowDownIcon } from "@heroicons/react/24/solid";
 
 function HomeSection() {
   const handleClick = () => {
-    const phoneNumber = "+351 913 502 727";
+    const phoneNumber = "+351913502727";
     const encodedMessage = encodeURIComponent(
       "Hello, I'm interested in your service"
     );
@@ -15,7 +15,7 @@ function HomeSection() {
   return (
     <div
       id="home"
-      className="relative min-h-screen w-full bg-[url('/image/home.jpg')] bg-cover bg-no-repeat"
+      className="relative h-full w-full bg-[url('/image/home.jpg')] bg-cover bg-no-repeat"
     >
       <div className="absolute inset-0 h-full w-full bg-gray-900/60" />
       <div className="grid min-h-screen px-8">
