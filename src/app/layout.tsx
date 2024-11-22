@@ -24,10 +24,10 @@ export default function RootLayout({
       <head>
         <script
           defer
-          data-site="YOUR_DOMAIN_HERE"
+          data-site="wwww.maestrina.pt"
           src="https://api.nepcha.com/js/nepcha-analytics.js"
         ></script>
-        <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+        <link rel="shortcut icon" href="/logos/logo-maestrina.svg" type="svg" />
       </head>
       <body className={fahkwang.className}>
         <Layout>

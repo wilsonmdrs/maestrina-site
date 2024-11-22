@@ -12,10 +12,10 @@ export default function Portfolio() {
     <>
       <Navbar />
       <HomeSection />
-      <ServicesSection />
+      {/* <ServicesSection />
       <AboutSection />
       <ContactSection />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }

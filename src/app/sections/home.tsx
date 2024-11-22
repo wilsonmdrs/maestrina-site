@@ -24,11 +24,11 @@ function HomeSection() {
           >
             Exclusive Solutions for Visionary Entrepreneurs
           </Typography>
-          <div className="flex items-center gap-4">
+          {/* <div className="flex items-center gap-4">
             <IconButton className="rounded-full bg-transparent p-6 border-2 border-primary hover:bg-primary transition-all first:text-primary hover:first:text-white ">
               <ArrowDownIcon className="h-7 w-7" />
             </IconButton>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

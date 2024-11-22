@@ -105,7 +105,7 @@ export function Navbar() {
           alt={"logo"}
           className="w-40"
         />
-        <ul
+        {/* <ul
           className={`ml-10 hidden items-center gap-[100px] lg:flex text-secondary`}
         >
           {NAV_MENU.map(({ name, href }) => (
@@ -130,9 +130,9 @@ export function Navbar() {
           ) : (
             <Bars3Icon strokeWidth={2} className="h-6 w-6" />
           )}
-        </IconButton>
+        </IconButton> */}
       </div>
-      <Collapse open={open}>
+      {/* <Collapse open={open}>
         <div className="container mx-auto mt-4 rounded-lg bg-white px-6 py-5">
           <ul className="flex flex-col gap-4 text-gray-900">
             {NAV_MENU.map(({ name, href }) => (
@@ -147,7 +147,7 @@ export function Navbar() {
             ))}
           </ul>
         </div>
-      </Collapse>
+      </Collapse> */}
     </MTNavbar>
   );
 }
